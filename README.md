@@ -7,7 +7,7 @@ A Vuejs 2.x html range slider. Feel free to copy the `<RangeSlider />` code and 
  1. Go to `src/components/SliderWrapper.vue` and copy the `<SlideRanger>` code with its pros
  2. Then navigate to `src/components/SlideRanger.vue` and study the code which is a not html `input[type="range"]` element
 
-Demo:
+### Demo:
 ![Demo](demo/demo.gif)
 
 ### Props
