@@ -79,7 +79,7 @@ export default {
   padding: 1rem 0;
 }
 
-.body {
+.slide-ranger .body {
   display: flex;
   justify-content: center;
   align-items: center;

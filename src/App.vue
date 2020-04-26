@@ -1,27 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <SlideRanger
-      :value="0"
-      :steps="0"
-      :min="0"
-      :max="100"
-      @onchange="log()"
-    />
+    <SlideRangeWrapper />
   </div>
 </template>
 
 <script>
-import SlideRanger from "./components/SlideRanger";
+import SlideRangeWrapper from "./components/SlideRangeWrapper";
 export default {
   name: 'App',
   components: {
-    SlideRanger
-  },
-   methods: {
-    log() {
-      console.log("Changed");
-    }
+    SlideRangeWrapper
   }
 }
 </script>
