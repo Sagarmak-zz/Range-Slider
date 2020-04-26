@@ -8,7 +8,7 @@ A Vuejs 2.x html range slider. Feel free to copy the `<RangeSlider />` code and 
  2. Then navigate to `src/components/SlideRanger.vue` and study the code which is a not html `input[type="range"]` element
 
 Demo:
-![Demo](https://photos.app.goo.gl/MTZXaP3MqupCknnKA)
+![Demo](demo/demo.gif)
 
 ### Props
 | Prop Name | Prop Value (e.g.) | Prop Desription
