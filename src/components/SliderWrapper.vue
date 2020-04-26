@@ -69,7 +69,7 @@ export default {
       return `<RangeSlider`;
     },
     html2() {
-      return `value="${this.value}"`;
+      return `v-model="${this.value}"`;
     },
     html3() {
       return `min="${this.min}"`;

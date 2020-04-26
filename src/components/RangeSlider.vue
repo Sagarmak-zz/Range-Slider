@@ -14,15 +14,7 @@
 <script>
 export default {
   name: "RangeSlider",
-  data() {
-    return {
-      value: 0,
-      minValue: 0,
-      maxValue: 100,
-      stepsValue: 1
-    };
-	},
-	props: ['min', 'max', 'steps', 'on-change']
+	props: ['min', 'max', 'steps', 'on-change', 'value']
 };
 </script>
 
