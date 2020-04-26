@@ -1,16 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <SlideRangeWrapper />
+    <SliderWrapper />
   </div>
 </template>
 
 <script>
-import SlideRangeWrapper from "./components/SlideRangeWrapper";
+import SliderWrapper from "./components/SliderWrapper";
 export default {
   name: 'App',
   components: {
-    SlideRangeWrapper
+    SliderWrapper
   }
 }
 </script>
